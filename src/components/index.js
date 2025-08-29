@@ -22,9 +22,10 @@ export {
   Experience,
   Works,
   Contact,
+  Service,
   EarthCanvas,
   BallCanvas,
   ComputersCanvas,
   StarsCanvas,
-  Service,
+ 
 };
