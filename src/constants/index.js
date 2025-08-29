@@ -11,15 +11,19 @@ import {
   nodejs,
   git,
   edunet,
-  weatherpedia,
+  bigData,
+  sasProject,
+  fhir,
+  highDimData,
   termpw,
   payloadmaster,
   threejs,
   mhft,
   sketcher,
-  mathwork,
-  CompileVortex,
-  eduskill,
+  sas,
+  dot,
+  deepLearning,
+  infs
 } from "../assets";
 
 export const navLinks = [
@@ -38,10 +42,10 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C", icon: c },
   { title: "C++", icon: cpp },
   { title: "Python", icon: python },
-  { title: "Java", icon: java },
+  { title: "Java Framework", icon: java },
+  { title: "SQL", icon: java },
 ];
 
 export const technologies = [
@@ -55,116 +59,162 @@ export const technologies = [
   { name: "git", icon: git },
 ];
 
+export const experience_data = [
+  {
+  company: "Acme FinTech",
+  role: "Senior Java Backend Engineer",
+  period: "2022 — Present",
+  location: "Brisbane, AU",
+  highlights: [
+  "Designed event-driven microservices with Spring Boot & Kafka.",
+  "Scaled REST APIs to 10k RPS with zero-downtime deploys (Jenkins).",
+  "Led security hardening (OAuth2/JWT, OWASP top 10)."
+  ]
+  },
+  {
+  company: "Hong Kong Housing Authority and Housing Department",
+  role: "System Analyst and Analyst Programmer",
+  period: "2020 — 2023",
+  location: "Hong Kong",
+  highlights: [
+  "Built batch/stream pipelines; improved cost 28% via tuning.",
+  "Implemented CI/CD using Bitbucket Pipelines & Helm charts.",
+  "Mentored 3 juniors; introduced coding standards & codeowners."
+  ]
+  },
+  {
+  company: "Global Retail Tech",
+  role: "Analyst Programmer",
+  period: "2021 — 2023",
+  location: "Hong Kong",
+  highlights: [
+  "Delivered order service with Struts → Spring Boot migration.",
+  "Cut P95 latency from 480ms → 140ms (profiling & caching).",
+  "Owned on-call; reduced incidents with SLOs & runbooks."
+  ]
+  }
+  ];
+
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
-    icon: eduskill,
+    title: "Data Science Industry Capstone Project",
+    company_name: "SAS Australia ",
+    icon: sas,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "2024 - 2025 (1 year)",
+    location: "Brisbane, AU",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Created and evaluated home loan origination models using advanced analytic tools and banking data, improved the accuracy to 91% and efficiency of the loan approval process in the Australian housing market.",
+      "Conducted an in-depth investigation using a real-world dataset of 50,00 records to analyse the impact of regulatory and economic factors on home loan origination and affordability.",
+      "Successfully delivered a high-impact capstone project, awarded a final grade of 7 (High Distinction), reflecting strong research, technical, and analytical capabilities.",
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
-    icon: mathwork,
+    title: "System Analyst & Analyst Programmer",
+    company_name: "Housing Authority of the Hong Kong Special Administrative Region",
+    icon: dot,
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    date: "2020 — 2023 (3 years)",
+    location: "Hong Kong",
     points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
+      "Assisted in project management for a government department system implementation, ensuring smooth coordination and on-time delivery.",
+      "Developed and migrated a cloud-based application using Java Spring, React, Oracle, and Apache Web Server, replacing legacy systems and improving performance.",
+      "Configured, managed, and secured application software and third-party environments, implementing secure interfaces that strengthened data protection.",
+      "Gained expertise in Java, SQL, Spring Boot, and CI/CD pipelines, improving development efficiency and system reliability.",
+      "Applied system analysis, database design, data migration, and integration skills to enable seamless interoperability and smooth data transitions.",
     ],
   },
   {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
+    title: "Analyst Programmer (Consultant)",
+    company_name: "NCSI Hong Kong Limited ",
+    icon: dot,
     iconBg: "#161329",
-    date: "June 2023 - July 2023",
+    date: "2016 — 2020 (4 years)",
+    location: "Hong Kong",
     points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
+      "Assisted in project development for a government department system implementation, ensuring smooth coordination and on-time delivery.",
+      "Maintained and updated the application using Java Framework, JSF, Oracle upon user requirements, improving business performance.",
+      "Gained expertise in Java, SQL , Shell scripts, development pipelines.",
     ],
   },
 ];
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "Predictive Analytics for Home Loan Approval using Machine Learning in SAS Viya",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "Building and evaluating a Home Loan Risk Model with SAS Viya and Data Visualization , and build the model to predict the risk of a home loan application",
     tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "HTML", color: "green-text-gradient" },
-      { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "Machine Learning", color: "green-text-gradient" },
+      { name: "SAS Viya", color: "yellow-text-gradient" },
     ],
-    image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    image: sasProject,
+    source_code_link: "",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "Spatial Data Analytics for Loan Assessment",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      "Analyzed 419K+ historical loan records with environmental, climate, demographic, and conflict data to assess borrower risk in regions lacking credit scores, like Afghanistan and Bolivia. Leveraged spatial-temporal indexing and visualization to make large-scale geospatial data actionable for investors and policymakers. This approach enables smarter loan decisions in high-risk and data-scarce areas.",
     tags: [
-      { name: "HTML", color: "blue-text-gradient" },
-      { name: "css", color: "green-text-gradient" },
-      { name: "Javascript", color: "pink-text-gradient" },
+      { name: "PostgreSQL", color: "blue-text-gradient" },
+      { name: "Reactjs", color: "green-text-gradient" },
+      { name: "Google Maps API", color: "pink-text-gradient" },
+      { name: "High Dimensional Data Analysis", color: "yellow-text-gradient" },
+      { name: "Data Visualization", color: "yellow-text-gradient" },
     ],
-    image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
+    image: highDimData,
+    source_code_link: "",
   },
   {
-    name: "Mental Health Fitness Tracker",
+    name: "Big Data Analytics for Facebook Ad Targeting: Python & PySpark Project",
     description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
+      "Developed a big data analytics solution using Python and PySpark to analyze Facebook advertising campaigns and target audiences for the Australian election. Implemented scalable data pipelines, aggregation, and audience segmentation to extract actionable insights",
     tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
+      { name: "PySpark", color: "blue-text-gradient" },
+      { name: "Python", color: "green-text-gradient" },
+      { name: "Big Data", color: "yellow-text-gradient" },
     ],
-    image: mhft,
+    image: bigData,
+    source_code_link: "",
+  },
+  {
+    name: "Deep Learning Model for Metal Condition Classification",
+    description:
+      "Developed a deep learning model to classify the condition of metals using sensor and image data. The project focuses on accurate detection of metal defects and degradation, leveraging convolutional neural networks (CNNs)  and Gramcam for high-performance classification",
+    tags: [
+      { name: "Deep Learning", color: "blue-text-gradient" },
+      { name: "SqueezeNet", color: "yellow-text-gradient" },
+      { name: "ShuffleNet", color: "yellow-text-gradient" },
+      { name: "ResNet", color: "yellow-text-gradient" },
+      { name: "GramCam", color: "yellow-text-gradient" },
+    ],
+    image: deepLearning,
     source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
+      "",
   },
   {
-    name: "PayloadMaster",
+    name: "FHIR Visualization Tool – Unified Healthcare Data Interface",
     description:
-      "Tool to automate payload creation using the Metasploit framework",
+      "Developed a dynamic visualization tool for FHIR healthcare data, enabling seamless rendering of text, images, PDFs, and complex nested resources in a single, user-friendly interface. Built as part of the  Digital Health Software Project at the University of Queensland",
     tags: [
-      { name: "shell", color: "blue-text-gradient" },
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "Reactjs", color: "green-text-gradient" },
+      { name: "FHIR", color: "pink-text-gradient" },
     ],
-    image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
+    image: fhir,
+    source_code_link: "",
   },
   {
-    name: "CompileVortex",
+    name: "Information Retrieval Project (Research)",
     description:
-      "Tool to automate payload creation using the Metasploit framework",
+      "Report and Compare BM25 with ACEN / DPR / TLDE2 method's eﬀectiveness and eﬃciency ",
     tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "HTML", color: "pink-text-gradient" },
+      { name: "Information Retrieval", color: "blue-text-gradient" },
+      { name: "Python", color: "green-text-gradient" },
     ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
+    image: infs,
+    source_code_link: "",
   },
-  {
-    name: "Sketcher",
-    description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
-    tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
-    ],
-
-    image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
-  },
+  
 ];

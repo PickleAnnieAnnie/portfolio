@@ -6,7 +6,7 @@ import CanvasLoader from "../Loader";
 
 const ComputerModel = ({ isMobile }) => {
   const { scene } = useGLTF(
-    "./desktop_pc/scene.gltf",
+    "./cat/base.glb",
     undefined,
     (loader) => {
       const dracoLoader = new DRACOLoader();
@@ -28,9 +28,9 @@ const ComputerModel = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={scene}
-        scale={isMobile ? 0.7 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        scale={isMobile ? 0.7 : 4}
+        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -3.0]}
+        rotation={[-0.01, 1, 0.0]}
       />
     </mesh>
   );

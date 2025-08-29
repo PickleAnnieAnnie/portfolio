@@ -37,13 +37,7 @@ const Navbar = () => {
           <a href={`#${link.id}`}>{link.title}</a>
         </li>
       ))}
-      <li
-        className={`text-${
-          isSecondary ? 'secondary' : 'white'
-        } hover:text-white text-[20px] font-medium cursor-pointer`}
-      >
-        <button onClick={toggleResume}>Resume</button>
-      </li>
+     
     </ul>
   );
 
@@ -64,7 +58,7 @@ const Navbar = () => {
             <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
             <p className="text-white text-[20px] font-bold cursor-pointer flex">
               Annie&nbsp;
-              <span className="sm:block hidden">KOLLURI</span>
+              <span className="sm:block hidden">Wong</span>
             </p>
           </Link>
           {renderNavLinks(false)}

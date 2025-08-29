@@ -1,7 +1,8 @@
 // Import company logos
-import mathwork from "./company/mathwork.png";
 import edunet from "./company/edunet.png";
 import eduskill from "./company/eduskill.png";
+import sas from "./company/sas.png";
+
 
 // Import tech stack images
 import python from "./tech-stack/python.png";
@@ -11,12 +12,18 @@ import java from "./tech-stack/java.png";
 
 // Import project images
 import weatherpedia from "./projects/WeatherPedia.png";
+import sasProject from "./projects/sas.png";
+import dot from "./projects/dot.svg";
+import fhir from "./projects/fhir.png";
+import highDimData from "./projects/highDimData.png";
 import termpw from "./projects/termpw.png";
 import payloadmaster from "./projects/payloadmaster.png";
 import mhft from "./projects/mhft.png";
 import sketcher from "./projects/sketcher.png";
 import CompileVortex from "./projects/CompileVortex.png";
-
+import deepLearning from "./projects/deepLearning.png";
+import bigData from "./projects/bigData.jpg";
+import infs from "./projects/infs.jpg";
 // Import tech logos
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -34,7 +41,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 export {
-  mathwork,
+  sas,
   edunet,
   python,
   c,
@@ -50,6 +57,11 @@ export {
   tailwind,
   threejs,
   weatherpedia,
+  sasProject,
+  bigData,
+  highDimData,
+  fhir,
+  dot,
   termpw,
   payloadmaster,
   mhft,
@@ -59,4 +71,6 @@ export {
   menu,
   close,
   eduskill,
+  deepLearning,
+  infs
 };
