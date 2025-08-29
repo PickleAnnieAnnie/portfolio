@@ -12,6 +12,7 @@ import Tech from "./Tech";
 import Experience from "./Experience";
 import Works from "./Works";
 import Contact from "./Contact";
+import Service from "./Service";
 
 export {
   Hero,
@@ -25,4 +26,5 @@ export {
   BallCanvas,
   ComputersCanvas,
   StarsCanvas,
+  Service,
 };
