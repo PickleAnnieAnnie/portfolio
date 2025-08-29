@@ -1,0 +1,38 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="24" cy="24" r="22" fill="#4F46E5" stroke="#6366F1" stroke-width="2"/>
+  
+  <!-- Cat body -->
+  <ellipse cx="24" cy="28" rx="8" ry="6" fill="#F59E0B"/>
+  
+  <!-- Cat head -->
+  <circle cx="24" cy="20" r="6" fill="#F59E0B"/>
+  
+  <!-- Cat ears -->
+  <path d="M18 16 L20 12 L22 16 Z" fill="#F59E0B"/>
+  <path d="M30 16 L28 12 L26 16 Z" fill="#F59E0B"/>
+  
+  <!-- Cat eyes -->
+  <circle cx="22" cy="19" r="1.5" fill="#1F2937"/>
+  <circle cx="26" cy="19" r="1.5" fill="#1F2937"/>
+  
+  <!-- Cat nose -->
+  <path d="M24 21 L23 22 L25 22 Z" fill="#EF4444"/>
+  
+  <!-- Cat mouth -->
+  <path d="M22 23 Q24 24 26 23" stroke="#1F2937" stroke-width="0.5" fill="none"/>
+  
+  <!-- Cat whiskers -->
+  <line x1="18" y1="21" x2="15" y2="20" stroke="#1F2937" stroke-width="0.5"/>
+  <line x1="18" y1="22" x2="15" y2="22" stroke="#1F2937" stroke-width="0.5"/>
+  <line x1="18" y1="23" x2="15" y2="24" stroke="#1F2937" stroke-width="0.5"/>
+  <line x1="30" y1="21" x2="33" y2="20" stroke="#1F2937" stroke-width="0.5"/>
+  <line x1="30" y1="22" x2="33" y2="22" stroke="#1F2937" stroke-width="0.5"/>
+  <line x1="30" y1="23" x2="33" y2="24" stroke="#1F2937" stroke-width="0.5"/>
+  
+  <!-- Cat tail -->
+  <path d="M32 28 Q36 26 38 30 Q36 34 32 32" fill="#F59E0B"/>
+  
+  <!-- Simple geometric shape under cat -->
+  <rect x="16" y="34" width="16" height="4" rx="2" fill="#6366F1" opacity="0.8"/>
+</svg>
