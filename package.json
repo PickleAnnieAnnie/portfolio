@@ -10,8 +10,9 @@
     "postbuild": "cp dist/index.html dist/404.html",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "predeploy": "npm run build",
-    "c_deploy": "gh-pages -d dist",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy:vercel": "vercel --prod",
+    "deploy:gh": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
